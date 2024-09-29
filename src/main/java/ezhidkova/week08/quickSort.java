@@ -1,4 +1,4 @@
-package week08;
+package main.java.ezhidkova.week08;
 
 import java.util.Arrays;
 
