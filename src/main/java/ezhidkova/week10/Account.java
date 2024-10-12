@@ -56,10 +56,11 @@ public class Account {
             System.out.println(e);
         }**/
         try {
-            login.checkLoginAndPassword("HelloWorld", "qwerty123");
+            login.checkLoginAndPassword("HelloWorld1", "qwerty123");
         }
         catch (WrongLoginOrPasswordException e){
             System.out.println("Вы некорректно ввели логин или пароль");
+            System.out.println(e);
         }
     }
 }
